@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(223, 219, 219);
+}
+
+.list-nostyle{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.face:hover{
+    content: url('images/social-media/facebook_0.png')
+    
+}
+.google:hover{
+    content: url('images/social-media/google-plus_0.png')
+    
+    
+}
+.linkedin:hover{
+
+    content: url('images/social-media/in_0.png')
+}
+.wifi:hover{
+
+    content: url('images/social-media/rss_0.png')
+}
+.twitter:hover{
+
+    content: url('images/social-media/twitter_0.png')
+}
+
+
+.header:hover{
+    margin-bottom: -3px;
+}
+.header-socialmedia{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+
+.header-img{
+    width: 100%;
+    height: 125px;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    border-top: 2px solid white;
+}
+
+.container-ul{
+    margin: 0px;
+    padding: 10px;
+    background-color: black;
+    color:white
+}
+.container-li{
+
+    padding: 10px;
+}
+.container-li a{
+    text-decoration: none;
+    color: white;
+}
+.container-li:hover{
+    background-color:blue;
+    border: none;
+    color: white;   
+}
+.img5{
+    width: 100%;
+    height: 300px;
+    top: 0;
+    left: 0;
+}
+.container-block-left{
+    float:left;
+    width: 75%;
+}
+.container-block-right{
+    float: right;
+    width: 20%;
+}
+
+.container-block-left h1, .container-block-right h1{
+    color: blue;
+    border-bottom: 1px solid black;
+}
+.twocar{
+/*margin: 44px;*/
+text-align: center;
+    margin-bottom: 40px;
+}
+.car {
+    outline-width: 5px; 
+outline-style: groove;
+outline-color: white;
+outline-offset: 10px;
+margin-left: 50px;
+    width: 366px;
+}
+.span1{
+
+
+    font-size: 15px;
+    color: orange;
+    display: block;
+}
+.span2{
+
+    font-size: medium;
+    color: blue;
+}
+.container-block-left{
+
+    word-break: break-all;
+}
+.container-block-right p{
+    word-break: break-all;
+}
+.bottom{
+    border-top: 2px solid black;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+.bottom2{
+    border-top: 2px solid black;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.container-block{
+
+    float:left;
+    width: 100%;
+   
+}
+.container-block h1{
+    color: blue;
+    border-bottom: 1px solid black;
+
+}
+
+.car2 {
+    display: inline-flex;
+margin-left: 50px;
+    width: 366px;
+}
